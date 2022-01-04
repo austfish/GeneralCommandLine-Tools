@@ -1,0 +1,90 @@
+{
+  "identification": "w5soar",
+  "is_public": true,
+  "name": "arl",
+  "version": "0.1",
+  "description": "灯塔资产 API操作",
+  "type": "灯塔助手",
+  "action": [
+    {
+      "name": "获取资产组范围",
+      "func": "get_asset_scope"
+    },
+    {
+      "name": "获取资产组站点",
+      "func": "get_asset_scope_site"
+    },
+    {
+      "name": "添加站点标签",
+      "func": "add_site_tag"
+    }
+  ],
+  "args": {
+    "get_asset_scope": [
+      {
+        "key": "api",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "token",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "search",
+        "type": "text",
+        "required": false
+      }
+    ],
+    "get_asset_scope_site": [
+      {
+        "key": "api",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "token",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "scope_id",
+        "type": "text",
+        "required": false
+      },
+      {
+        "key": "site",
+        "type": "text",
+        "required": false
+      },
+      {
+        "key": "search",
+        "type": "text",
+        "required": false
+      }
+    ],
+    "add_site_tag": [
+      {
+        "key": "api",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "token",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "_id",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "tag",
+        "type": "text",
+        "required": true
+      }
+    ]
+  }
+}
