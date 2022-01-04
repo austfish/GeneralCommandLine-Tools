@@ -2,7 +2,7 @@
 
 > 目前仅支持，`获取资产组范围`,`获取资产组站点`,`添加站点标签` 三种方式
 
-- 洞察官方文档：https://github.com/TophantTechnology/ARL
+- ARL官方文档：https://github.com/TophantTechnology/ARL
 
 ## 动作列表
 
