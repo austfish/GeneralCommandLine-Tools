@@ -15,9 +15,8 @@
 1. **app.json** 配置文件更改脚本名称、类型、参数、函数名称、参数配置
 1. **main.py** 文件编写功能函数
 
-​
-
 **1.3 使用工具**
+
 `python start.py -h`
 `python start.py get_asset_scope 127.0.0.1:5003 123456`
 # 0x02 脚本应用开发
@@ -329,6 +328,7 @@ Hello,{{name}} !"
 ![image.png](https://cdn.nlark.com/yuque/0/2022/png/10388730/1641267103304-e7929164-4792-447c-81a4-ec544cdf713e.png#clientId=ua30bc171-ba60-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=254&id=uf7a16609&margin=%5Bobject%20Object%5D&name=image.png&originHeight=254&originWidth=522&originalType=binary&ratio=1&rotation=0&showTitle=false&size=11428&status=done&style=none&taskId=uf2b18a84-31dd-46cc-bbe2-e3f7b2187cc&title=&width=522)
 ### 3.2 帮助信息
 ![image.png](https://cdn.nlark.com/yuque/0/2022/png/10388730/1641267156613-ea242592-5008-4710-a6de-a0862945c15e.png#clientId=ua30bc171-ba60-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=433&id=u7bd20b18&margin=%5Bobject%20Object%5D&name=image.png&originHeight=433&originWidth=316&originalType=binary&ratio=1&rotation=0&showTitle=false&size=14525&status=done&style=none&taskId=u0ec6d95d-a703-4468-9d97-96ec15203c3&title=&width=316)
+
 Help帮助信息，展示该应用支持的COMMANDS
 
 - add_site_tag
