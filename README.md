@@ -3,11 +3,14 @@
 # 0x00 背景
 安全测试过程中，有很多脚本工具，在进行编写的时候，难以复用、集成等问题。在快速调用过程中，需要重新写命令行调用工具，效率低下。
 所以通过通用的命令行启动脚本，使得在工具开发的过程中，关注工具的功能、参数即可，调用逻辑将统一，在批量调用多个工具时、更容易适配。
+
 应用结构参考[W5 SOAR](https://github.com/w5teams/w5)应用格式，可以无缝衔接使用，上传至W5即可实现Web页面调用应用，实现页面使用、命令行使用两种方式。
 # 0x01 安装使用
 ## 1.1 下载项目
 `git clone git@github.com:austfish/GeneralCommandLine-Tools.git`
+
 **安装依赖**
+
 `pip install -r requirements.txt`
 ## 1.2 定制应用
 
@@ -18,6 +21,7 @@
 **1.3 使用工具**
 
 `python start.py -h`
+
 `python start.py get_asset_scope 127.0.0.1:5003 123456`
 # 0x02 脚本应用开发
 ## 2.1 开发规范
